@@ -6,6 +6,7 @@
 # pip install aiohttp
 # pip install vllm
 # 修改main中的models列表，放入模型
+# 获取数据：wget https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/resolve/main/ShareGPT_V3_unfiltered_cleaned_split.json
 # 修改tensor_parallel_sizes 列表，比如想测4卡和8卡，就改成tensor_parallel_sizes = [4,8]
 # python auto_vllm.py
 # 等待，看logs文件夹里的log
